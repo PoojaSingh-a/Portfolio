@@ -1,0 +1,344 @@
+html,body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    scroll-behavior: smooth;
+    margin:0;
+    padding: 0;
+}
+.main{
+    position: relative;
+}
+.nav{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.navpart1{
+    display: none;
+}
+.nav h2{
+    display: none;
+}
+.navpart2{
+    display: flex;
+    gap:2vw;
+    margin-top:15px;
+}
+.navpart2 a{
+    text-decoration: none;
+    color: #9b7cff;
+    font-size:1.5vw;
+    transition: color 0.3s;
+}
+.navpart2 a:hover{
+    color:white;
+}
+.menuoption{
+    display: none;
+}
+.content{
+    margin-top:20px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom :15vw;
+}
+.left{
+    height:100%;
+    width:50%;
+}
+.left p{
+    color:white;
+    padding-top:13vw;
+    padding-left:7vw;
+   /* padding: 10vw 5vw;*/
+    font-size: 2vw;
+    font-weight: bold;
+    line-height: 3vw;
+}
+.left p span{
+    font-size:1.5vw
+}
+.socials{
+    height:50px;
+    width:300px;
+    display: inline-block;
+    margin-left:7vw;
+    margin-top:3vw;
+    display: flex;
+    gap:30px;
+}
+.socials a i{
+    font-size:2.2vw;
+}
+.socials a{
+    gap:20px;
+}
+.icon:hover{
+    animation: none;
+}
+.right{
+    height:100%;
+    width:50%;
+}
+.right img{
+    padding-top:12vw;
+    padding-left:7vw;
+    width:60%;
+}
+.about{
+    padding-top:5vh;
+    color:white;
+    height: auto;
+    margin-bottom :15vw;
+}
+.about h1,.skills h1,.projects h1,.contact h1{
+    display: flex;
+    justify-content: center;
+    color:#9b7cff;
+}
+.about p{
+    padding:40px;
+    border:2px solid #9b7cff;
+    border-radius: 40px;
+    font-size:1.5vw;
+    line-height:2vw;
+    margin:7vw;
+    transition: box-shadow 0.3s ease-in-out;
+}
+.about p:hover,.skillCards:hover,.contactForm:hover{
+    border:2px solid white;
+    box-shadow: 0 0 20px 5px #9b7cff;
+    color:#9b7cff;
+    
+}
+.projectCard:hover{
+    box-shadow: 0 0 20px 5px #9b7cff;
+}
+.skills{
+    padding-top:2vh;
+    height: auto;
+}
+.skillCards{
+    width:80%;
+    padding:40px;
+    margin:7vw;
+    border:2px solid #9b7cff;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:4vw;
+    transition: box-shadow 0.3s ease-in-out;
+    flex-wrap: wrap;
+}
+.skillCards div{
+    font-size:8vw;
+}
+.projects{
+    padding-top:2vh;
+    height: auto;
+}
+.projectCard{
+    width:80%;
+    height: 100%;
+    padding:40px;
+    margin:7vw;
+    border:2px solid #9b7cff;
+    border-radius: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:3vw;
+    transition: box-shadow 0.3s ease-in-out;
+    flex-wrap: wrap;
+}
+.pCards{
+    width: 25%;
+    height: 13vh;
+    padding:0.2vw;
+    background-color: white;
+    height:auto;
+    border:2px solid #9b7cff;
+    border-radius: 15px;
+}
+.pCards img{
+    width: 100%;
+    border-radius: 15px;
+}
+.pCards h3{
+    margin-left:1vw;
+    font-weight: bolder;
+}
+.pCards p{
+    margin-left:1vw;
+    margin-right:0.5vw;
+    font-size: 1vw;
+    line-height: 1.5vw;
+}
+.contactForm{
+    width:30%;
+    height: 100%;
+    padding:40px;
+    margin-top:5vw;
+    margin-left: 32%;
+    margin-bottom: 5vw;
+    border:2px solid #9b7cff;
+    border-radius: 40px;
+    transition: box-shadow 0.3s ease-in-out;
+}
+.contactForm form{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    font-size: larger;
+    color:#9b7cff;
+}
+.contactForm form input{
+    margin-top:1vw;
+    margin-bottom: 1.5vw;
+    background-color: #bfaef5;
+    font-size: 1vw;
+    display: block;
+    border-radius: 5px;
+    height:1.5vw;
+}
+.contact form textarea{
+    margin-top:1vw;
+    margin-bottom: 1.5vw;
+    background-color: #bfaef5;
+    font-size: 1vw;
+    height: 3vw;
+    border-radius: 5px;
+    resize: none;
+}
+.contactForm form button{
+    margin-top:2vw;
+    height: 2vw;
+    font-size: 1vw;
+    font-weight: bold;
+    background-color:#7850fd;
+    border:none;
+    border-radius: 5px;
+}
+.contactForm form button:hover{
+    background-color: antiquewhite;
+}
+.footer{
+    background-color: #7850fd;
+    height: 2.5vw;
+    margin:0px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer h4{
+    color: white;
+}
+.footer h4 a{
+    color:black;
+    text-decoration: none;
+    text-decoration: underline;
+}
+
+@media (max-width:600px) {
+    .navpart2{
+        display: none;
+    }
+    .navpart1{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width:100%;
+        color:#9b7cff;
+        padding:10px;
+    }
+    .navpart1 h2{
+        display: block;
+        color:#9b7cff;
+        font-size:5vw;
+        transition: color 0.3s;
+    }
+    .navpart1 h2:hover{
+        color:white;
+    }
+    .menuoption{
+        display: block;
+        color:#9b7cff;
+        font-size:4vw;
+    }
+    .content{
+        flex-direction: column;
+        height:auto;
+    }
+    .socials{
+        gap:70px;
+    }
+    .left{
+        width:100%;
+    }
+    .right{
+        width:80%;
+    }
+    .left p{
+        font-size:5vw;
+        line-height: 35px;
+    }
+    .left p span{
+        font-size:4vw;
+    }
+    .socials a i{
+        font-size:5.2vw;
+    }
+    .right img{
+        margin-top:30px;
+        width:80%
+    }
+    .about h1, .skills h1, .projects h1 {
+        font-size:7vw;
+        margin-top: 50px;
+    }
+    .about p{
+        font-size:4vw;
+        line-height:8vw;
+    }
+    .skills{
+        width: 80%;
+    }
+    .projects{
+        width: 80%;
+
+    }
+    .pCards{
+        margin-top: 3vw;
+        width: 100%;
+        height:auto;
+    }
+    .pCards p{
+        font-size: 4vw;;
+        line-height: 5vw;
+    }
+    .contactForm{
+        width: 65%;
+        margin-left: 7vw;
+    }
+    .contactForm form input{
+        height: 5vw;
+        font-size: 2.3vw;
+    }
+    .contactForm form textarea{
+        height: 7vw;
+        font-size: 2.3vw;
+    }
+    .contactForm form button{
+        height: 5vw;
+        font-size: 2vw;
+    }
+    .footer{
+        height: 6vw;
+        font-size: 2vw;
+    }
+}

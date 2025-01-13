@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>  
+<body>
+    <div class="main">
+        <div class="nav">
+            <!--<h2>Portfolio</h2>-->
+            <div class="navpart2">
+                <a href="#about-me">About me</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="navpart1">
+                <h2>Portfolio</h2>
+                <div class="menuoption">
+                    <i class="fa-solid fa-bars" style="color: #9b7cff;"></i>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="left">
+                <p>Hey,<br/>I'm 
+                <span style="color:#9b7cff;">Pooja Singh Chouhan</span><br/>
+                <span>A Passoniate FullStack developer</span><br/><span>
+                <span style="color:#9b7cff;">Building the future, one line of code at a time.</span></p>
+                <div class="socials">
+                    <a href="https://www.linkedin.com/in/pooja-s-a05356222/" class="social-button" target="_blank">
+                        <i class="fa-brands fa-linkedin fa-beat icon" style="color: #0077b5;"></i>
+                    </a>
+                    <a href="https://github.com/PoojaSingh-Ch" class="social-button" target="_blank">
+                        <i class="fa-brands fa-github fa-beat icon" style="color: #fff;"></i>
+                    </a>
+                    <a href="https://www.instagram.com/_poojasingh1._/" class="social-button" target="_blank">
+                        <i class="fa-brands fa-instagram fa-beat icon" style="color: #e04e92;"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="right">
+                <img src="./images/Hire-Odoo-Expert-Image-1.svg" alt="">
+            </div>
+        </div>
+        <div id="about-me" class="about">
+            <h1>About me</h1>
+            <p>Hey there! I'm Pooja singh chouhan, a final year MCA student who loves coding, cloud tech, and figuring out how things work. I enjoy building apps and exploring new technologies like Google Cloud and AWS.
+                <br>
+                When I'm not glued to my laptop, you can find me watching cricket, sketching, or listening to music. I'm all about learning, creating, and making an impact through my work.
+                Thanks for stopping by - let's connect and create something awesome!
+                <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, doloremque magnam harum eligendi animi beatae explicabo voluptas iusto distinctio esse eos ea magni minima? Minima ea voluptates ipsam in aspernatur deleniti quis eum ratione tempora.</p>
+        </div>
+        <div id="skills" class="skills">
+            <h1>Skills</h1>
+            <div class="skillCards">
+                <div class="card">
+                    <i class="fa-brands fa-html5 fa-beat-fade icon" style="color: #dd4b24;"></i>
+                </div>
+                <div class="card">
+                    <i class="fa-brands fa-css fa-beat-fade icon" style="color: #244cd6;"></i>
+                </div>
+                <div class="card">
+                    <i class="fa-brands fa-js fa-beat-fade icon" style="color: #f4e11e;;"></i>
+                </div>
+                <div class="card">
+                    <i class="fa-brands fa-java fa-beat-fade icon" style="color: #477c9d;"></i>
+                </div>
+                <div class="card">
+                    <i class="fa-brands fa-react fa-beat-fade icon" style="color: #08d9ff;;"></i>
+                </div>
+            </div>
+        </div>
+
+        <div id="projects" class="projects">
+            <h1>Projects</h1>
+            <div class="projectCard">
+                <div class="pCards">
+                    <img src="./images/BV_Portal.png" alt="">
+                    <h3>BV Portal</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis mollitia harum temporibus ullam! Facilis repellat pariatur eligendi officiis nobis sapiente. Ut, consequuntur perspiciatis!</p>
+                </div>
+                <div class="pCards">
+                    <img src="./images/hotelMgmt.png" alt="">
+                    <h3>Hotel Management</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis mollitia harum temporibus ullam! Facilis repellat pariatur eligendi officiis nobis sapiente. Ut, consequuntur perspiciatis!</p>
+                </div>
+                <div class="pCards">
+                    <img src="./images/netflix.JPG" alt="">
+                    <h3>Netflix clone(Frontend)</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis mollitia harum temporibus ullam! Facilis repellat pariatur eligendi officiis nobis sapiente. Ut, consequuntur perspiciatis!</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="contact" class="contact">
+            <h1>Contact</h1>
+            <div class="contactForm">
+                <form id="form">
+                    <label for="fullname">Full Name</label>
+                    <input type="text" id="fullname">
+                    <label for="email">Email Id</label>
+                    <input type="email" id="email">
+                    <label for="msg">Enter Message</label>
+                    <textarea id="msg"></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer">
+            <h4>©Copyright 2024. Made by <a href="https://www.linkedin.com/in/pooja-s-a05356222/">Pooja Singh Chouhan</a></h4>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
