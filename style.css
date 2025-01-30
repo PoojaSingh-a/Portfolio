@@ -185,7 +185,7 @@ html,body{
     margin-top:5vw;
     margin-left: 32%;
     margin-bottom: 5vw;
-    border:2px solid #9b7cff;
+    border:2px solid white;
     border-radius: 40px;
     transition: box-shadow 0.3s ease-in-out;
 }
@@ -198,8 +198,8 @@ html,body{
 }
 .contactForm form input{
     margin-top:1vw;
+    padding:0.3vw;
     margin-bottom: 1.5vw;
-    background-color: #bfaef5;
     font-size: 1vw;
     display: block;
     border-radius: 5px;
@@ -208,7 +208,6 @@ html,body{
 .contact form textarea{
     margin-top:1vw;
     margin-bottom: 1.5vw;
-    background-color: #bfaef5;
     font-size: 1vw;
     height: 3vw;
     border-radius: 5px;
