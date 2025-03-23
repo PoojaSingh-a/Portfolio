@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<<<<<<< HEAD
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>  
@@ -77,9 +78,59 @@
                 <div class="card">
                     <i class="fa-brands fa-node fa-beat-fade icon" style="color: #22b934;"></i>
                 </div>
+=======
+    <title>Pooja's Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/js/all.min.js" crossorigin="anonymous"></script>
+    <style>
+        /* Smooth scrolling */
+        html {
+            scroll-behavior: smooth;
+        }
+        /* Active link style */
+        .active {
+            border-bottom: 2px solid #9f7aea; /* Purple color */
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-white">
+    
+    <nav class="flex justify-between items-center p-5 bg-gray-800 shadow-lg fixed w-full top-0 z-50">
+        <h2 class="text-2xl font-bold text-purple-400">Portfolio</h2>
+        <div class="hidden md:flex space-x-6">
+            <a href="#about-me" class="hover:text-purple-400">About Me</a>
+            <a href="#skills" class="hover:text-purple-400">Skills</a>
+            <a href="#projects" class="hover:text-purple-400">Projects</a>
+            <a href="#contact" class="hover:text-purple-400">Contact</a>
+        </div>
+        <button id="menu-toggle" class="md:hidden text-purple-400">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+    </nav>
+    
+    <section class="flex flex-col md:flex-row items-center justify-between px-10 py-24 bg-gradient-to-r from-purple-600 to-blue-900">
+        <div>
+            <p class="text-xl">Hey, I'm</p>
+            <h1 class="text-4xl font-bold">Pooja Singh Chouhan</h1>
+            <p class="text-lg mt-2">A Passionate Full-Stack Developer</p>
+            <p class="mt-2 text-gray-300">Building the future, one line of code at a time.</p>
+            <div class="flex space-x-4 mt-4">
+                <a href="https://www.linkedin.com/in/pooja-s-a05356222/" target="_blank" class="p-2 rounded-full bg-gray-700 hover:bg-gray-600 transition duration-300">
+                    <i class="fa-brands fa-linkedin text-3xl text-blue-500"></i>
+                </a>
+                <a href="https://github.com/PoojaSingh-Ch" target="_blank" class="p-2 rounded-full bg-gray-700 hover:bg-gray-600 transition duration-300">
+                    <i class="fa-brands fa-github text-3xl text-white"></i>
+                </a>
+                <a href="https://www.instagram.com/_poojasingh1._/" target="_blank" class="p-2 rounded-full bg-gray-700 hover:bg-gray-600 transition duration-300">
+                    <i class="fa-brands fa-instagram text-3xl text-pink-500"></i>
+                </a>
+>>>>>>> 7f62b4f (Changes done)
             </div>
         </div>
+        <img src="./images/Hire-Odoo-Expert-Image-1.svg" alt="Pooja's Image" class="w-60 md:w-96  rounded-lg">
+    </section>
 
+<<<<<<< HEAD
         <div id="projects" class="projects">
             <h1>Projects</h1>
             <div class="projectCard">
@@ -112,27 +163,120 @@
                         </p>
                 </div>
             </div>
+=======
+    <section id="about-me" class="px-10 py-16 bg-gray-800">
+        <h1 class="text-3xl font-bold text-center text-purple-400">About Me</h1>
+        <div class="max-w-4xl mt-10 mx-auto text-center">
+            <p class="text-gray-300 text-lg leading-relaxed">Hey there! I'm <span class="text-blue-400 font-semibold"> <a href="https://www.linkedin.com/in/pooja-s-a05356222/"> Pooja Singh Chouhan </a></span>, a full-stack developer passionate about coding, cloud technologies, and problem-solving.</p>
+            <p class="text-gray-300 text-lg leading-relaxed mt-4">I have experience in building dynamic web applications using React.js, Node.js, and MySQL. I love exploring cloud platforms like AWS and Google Cloud.</p>
+            <p class="text-gray-300 text-lg leading-relaxed mt-4">Beyond coding, I enjoy watching cricket, sketching, and listening to music. I'm a continuous learner, always eager to explore new technologies.</p>
+>>>>>>> 7f62b4f (Changes done)
         </div>
+    </section>
 
-        <div id="contact" class="contact">
-            <h1>Contact</h1>
-            <div class="contactForm">
-                <form id="form">
-                    <label for="fullname">Full Name</label>
-                    <input type="text" id="fullname">
-                    <label for="email">Email Id</label>
-                    <input type="email" id="email">
-                    <label for="msg">Enter Message</label>
-                    <textarea id="msg"></textarea>
-                    <button type="submit">Send Message</button>
-                </form>
+    <section id="skills" class="px-10 py-10">
+        <h1 class="text-3xl font-bold text-center text-purple-400">Skills</h1>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-6 mt-6 text-center">
+            <div class="p-4 bg-gray-800 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
+                <i class="fa-brands fa-html5 text-5xl text-orange-500"></i>
+                <p class="mt-2 text-lg">HTML5</p>
+            </div>
+            <div class="p-4 bg-gray-800 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
+                <i class="fa-brands fa-css3-alt text-5xl text-blue-500"></i>
+                <p class="mt-2 text-lg">CSS3</p>
+            </div>
+            <div class="p-4 bg-gray-800 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
+                <i class="fa-brands fa-js text-5xl text-yellow-400"></i>
+                <p class="mt-2 text-lg">JavaScript</p>
+            </div>
+            <div class="p-4 bg-gray-800 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
+                <i class="fa-brands fa-react text-5xl text-cyan-400"></i>
+                <p class="mt-2 text-lg">React.js</p>
+            </div>
+            <div class="p-4 bg-gray-800 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
+                <i class="fa-brands fa-node-js text-5xl text-green-500"></i>
+                <p class="mt-2 text-lg">Node.js</p>
+            </div>
+            <div class="p-4 bg-gray-800 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
+                <i class="fa-solid fa-database text-5xl text-gray-400"></i>
+                <p class="mt-2 text-lg">MySQL</p>
+            </div>
+            <div class="p-4 bg-gray-800 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
+                <i class="fa-brands fa-git text-5xl text-red-500"></i>
+                <p class="mt-2 text-lg">Git</p>
+            </div>
+            <div class="p-4 bg-gray-800 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
+                <i class="fa-brands fa-java text-5xl text-orange-500"></i>
+                <p class="mt-2 text-lg">Java</p>
             </div>
         </div>
+<<<<<<< HEAD
         <div class="footer">
             <h4>© Copyright 2024. Made by <a href="https://www.linkedin.com/in/pooja-s-a05356222/">Pooja Singh Chouhan</a></h4>
+=======
+    </section>
+    
+    <section id="projects" class="px-10 py-16 bg-gray-900">
+        <h1 class="text-4xl font-bold text-center text-purple-400 mb-12">Projects</h1>
+        <div class="grid md:grid-cols-3 gap-8">
+            <div class="bg-gray-800 p-6 rounded-2xl shadow-lg hover:scale-105 transition-transform duration-300">
+                <img src="./images/BV_Portal.png" alt="BV Portal" class="w-full h-40 object-cover rounded-lg">
+                <h3 class="text-xl font-semibold mt-4">BV Portal</h3>
+                <p class="text-gray-400 mt-2">A digital platform streamlining student and faculty tasks.</p>
+            </div>
+            <div class="bg-gray-800 p-6 rounded-2xl shadow-lg hover:scale-105 transition-transform duration-300">
+                <img src="./images/hotelMgmt.png" alt="Hotel Management" class="w-full h-40 object-cover rounded-lg">
+                <h3 class="text-xl font-semibold mt-4">Hotel Management</h3>
+                <p class="text-gray-400 mt-2">A management system for hotel bookings and reservations.</p>
+            </div>
+>>>>>>> 7f62b4f (Changes done)
         </div>
-    </div>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
-    <script src="./script.js"></script>
+    </section>
+    
+    <section id="contact" class="px-10 py-16 bg-gray-800">
+        <h1 class="text-3xl font-bold text-center text-purple-400">Contact Me</h1>
+        <div class="max-w-lg mx-auto mt-10 bg-gray-900 p-6 rounded-lg shadow-lg">
+            <form id="contact-form">
+                <label class="block text-gray-300 mb-2">Name</label>
+                <input type="text" id="fullname" class="w-full p-2 mb-4 bg-gray-700 border border-gray-600 rounded-lg" placeholder="Your Name">
+                
+                <label class="block text-gray-300 mb-2">Email</label>
+                <input type="email" id="email" class="w-full p-2 mb-4 bg-gray-700 border border-gray-600 rounded-lg" placeholder="Your Email">
+                
+                <label class="block text-gray-300 mb-2">Message</label>
+                <textarea id="msg" class="w-full p-2 mb-4 bg-gray-700 border border-gray-600 rounded-lg" rows="4" placeholder="Your Message"></textarea>
+                
+                <button type="submit" class="w-full bg-purple-500 p-2 rounded-lg text-white font-bold hover:bg-purple-600 transition-colors duration-300">Send Message</button>
+            </form>
+            
+        </div>
+    </section>
 </body>
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+<script>
+    emailjs.init("2D3rE0M2lm-_7_rNM"); // Ensure EmailJS is initialized
+
+    document.getElementById("contact-form").addEventListener("submit", function(event){
+        event.preventDefault();
+        sendMail();
+    });
+
+    function sendMail(){
+        let params = {
+            name: document.getElementById("fullname").value,
+            email: document.getElementById("email").value,
+            msg: document.getElementById("msg").value
+        };
+
+        emailjs.send("service_uimnbjl", "template_wpu9vli", params)
+            .then(function(response){
+                alert("Email sent successfully!");
+                document.getElementById("contact-form").reset(); // Reset form after sending
+            })
+            .catch(function(err){
+                alert("Failed to send email! Try again.");
+                console.error(err);
+            });
+    }
+</script>
 </html>
